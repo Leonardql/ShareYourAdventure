@@ -1,0 +1,99 @@
+body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    display: inline-block;
+}
+
+
+h2{
+    padding: 20px 30px 30px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.blog-area .row div[class^="col"] {
+    margin-bottom: 30px;
+}
+
+.blog-area{
+    text-align: center;
+    background: #EDF3F3;
+}
+
+.blog-area .single-post{
+    height: 100%;
+    position: relative;
+    padding-bottom: 45px;
+    overflow: hidden;
+    box-shadow: 0 0 5px black;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.blog-area .single-post .title{
+    padding: 20px 30px 30px;
+}
+
+.single-post .avatar{
+    margin: 0 auto;
+    margin-top: -40px;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    z-index: 10;
+    border-radius: 100px;
+    position: relative;
+    border: 7px solid #fff;
+    box-shadow: 0 0 10px black }
+
+.single-post .post-footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center; }
+
+.single-post .post-footer > li{
+    width: 33.33%;
+    display: inline-block;
+    border-right: 1px solid #fff;
+    background: #EDF3F3;
+}
+
+.single-post .post-footer > li:first-child{
+    float: left;
+}
+
+.single-post .post-footer > li:last-child{
+    border: 0;
+    float: right;
+}
+
+.single-post .post-footer > li > a{
+    line-height: 45px;
+    width: 100%;
+}
+
+.single-post .post-footer i{
+    display: inline-block;
+    margin-right: 10px;
+    opacity: .6;
+    font-size: 1.1em;
+}
+
+
+
+/*.post-footer li{*/
+    /*background: url("images/black-heart-clipart.png");*/
+    /*background-size: 40%;*/
+    /*background-repeat: no-repeat;*/
+
+/*}*/
+
+/*.post-footer{*/
+    /*list-style-image: url("images/black-heart-clipart.png");*/
+    /*background-repeat: no-repeat;*/
+
+/*}*/

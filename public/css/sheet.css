@@ -1,0 +1,106 @@
+header{
+    display: flex;
+    position: relative;
+    height: 80px;
+    padding-top: 12px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0, .3);
+}
+
+main{
+    padding: 70px 0 40px;
+}
+header > h1{
+    padding: 6px 0 0 30px;
+    font-weight: bold;
+    line-height: 2.7rem;
+}
+
+.avatar img{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    position: absolute;
+    right: 0;
+}
+.dropdown{
+    position: fixed;
+    right: 0;
+    z-index:999;
+}
+
+header a{
+    font-size: 2rem;
+}
+
+header .main-menu{
+    display: inline-block;
+    float: left;
+}
+
+header .main-menu > li{
+    float: left;
+}
+
+header .main-menu > li > a{
+    height: 60px;
+    line-height: 60px;
+    padding: 0 25px;
+    border-right: 1px solid #eee;
+}
+
+header .main-menu > li > a:hover{
+    background: #eee;
+}
+
+header .main-menu > li:first-child > a{
+    border-left: 1px solid #eee;
+}
+
+header .visible.main-menu{
+    display: block;
+}
+
+.slider{
+    height: 340px;
+    background-image: url("/images/Bucket-diaries_banner_inner-page_Plan-Your-Adventure.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer{
+    padding: 70px 0 30px 0;
+    background: #fff;
+}
+
+
+
+footer  h1 {
+    font-weight: bold;
+    line-height: 2.7rem;
+    margin-bottom: 28px;
+
+}
+
+footer img{
+    width: 50px;
+    border-radius: 10px;
+}
+
+
+

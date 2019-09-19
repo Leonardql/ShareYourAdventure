@@ -1,0 +1,154 @@
+body{
+    font-size: 16px;
+}
+
+aside{
+    padding: 70px 0 70px 0;
+    background-color: #EDF3F3;
+}
+
+form:first-of-type{
+    margin-left: auto;
+}
+.changes{
+    display: flex;
+    margin-top: 10px;
+}
+.post-area{
+    box-shadow: 0 0 5px black;
+
+}
+
+.post-area .post-info{
+    position: relative;
+    padding: 30px 0;
+}
+
+.post-area .post-info .left-area{
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    border: 6px	solid #fff;
+    box-shadow: 0 0 5px black;
+}
+
+.post-area .post-info .middle-area{
+    padding-left: 90px;
+    display: inline-block;
+}
+
+.post-area .post-info .date{
+    display: inline-block;
+    color: #999;
+}
+
+/* ---------------------------------- */
+.main-post{
+    border-right: 1px solid #ddd;
+}
+
+.main-post .blog-post-inner{
+    padding-right: 30px;
+}
+
+.main-post .title{
+    margin-bottom: 30px;
+}
+
+.main-post .text{
+    margin: 30px 0;
+}
+
+
+
+
+/* ---------------------------------- */
+
+.comment-form{
+    margin: 30px 0;
+    padding: 30px;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+    border: 1px solid #ddd;
+    background: #fff; }
+
+.comment-form .form-control{
+    margin-bottom: 30px;
+    border-radius: 1px;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    line-height: 45px;
+    padding: 0;
+    max-width: 100%;
+}
+
+.comment-form textarea.form-control{
+    height: auto;
+}
+
+.comment-form .form-control:focus{
+    border-color: #498BF9;
+}
+
+.comment-form .submit-btn{
+    font-size: .8em;
+    outline: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #D2E2FC;
+    background: #D2E2FC;
+}
+
+.comment-form .submit-btn:hover{
+    background: none;
+}
+
+
+
+.commnets-area{
+    padding: 30px 40px;
+    margin: 30px 0;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.1);
+    background: #fff;
+}
+
+.comment{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee; }
+
+.comment:last-child{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0; }
+
+.comment .post-info{
+    position: relative; padding: 30px 0;
+}
+
+.comment .post-info .left-area{
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    border: 6px	solid #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,.3); }
+
+.comment .post-info .middle-area{
+    padding-left: 90px;
+    width: calc(100% - 70px);
+    display: inline-block;
+}
+
+
+
+
+
+

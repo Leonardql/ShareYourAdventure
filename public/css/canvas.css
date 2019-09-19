@@ -1,0 +1,6 @@
+canvas {
+    position: absolute;
+    left: 9vw;
+    top: 24vh;
+    transform: translate(-50%, -50%);
+}

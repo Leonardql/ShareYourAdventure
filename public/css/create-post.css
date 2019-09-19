@@ -1,0 +1,62 @@
+form{
+    background-color: #EDF3F3;
+    padding: 50px 0 50px 0;
+}
+
+h5{
+    margin: 10px 0 22px 0;
+    border-bottom:  solid 1px #EDF3F3;
+    padding-bottom: 10px;
+}
+
+label{
+    display: flex;
+    font-size: 16px;
+}
+
+input#title{
+    margin-bottom: 10px;
+    width: 52%;
+    height: 2.3rem;
+}
+
+input#image{
+    margin-bottom: 20px;
+}
+
+input#submitpost{
+    margin: 10px 0 10px 0;
+}
+
+fieldset{
+    text-align: right;
+    padding: 19px;
+}
+
+main{
+    padding: 0;
+}
+
+textarea{
+    display: flex;
+    width: 100%;
+}
+
+.submit-btn{
+    font-size: .8em;
+    outline: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #D2E2FC;
+    background: #D2E2FC;
+    font-weight: bold;
+}
+
+.submit-btn:hover{
+    background: none;
+}
+.col-md-4{
+    border: solid 1px gainsboro;
+    background-color: white;
+}
+

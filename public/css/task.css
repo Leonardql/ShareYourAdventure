@@ -1,0 +1,25 @@
+h2 {
+    font-size: 3rem;
+}
+
+form{
+    margin: 10px 0 10px 0;
+}
+
+textarea{
+    margin-bottom: 13px;
+    width: 100%;;
+}
+
+article{
+    border: solid 1px white;
+    box-shadow: 0 0 30px 0;
+    margin: 10px 0 30px 0;
+}
+
+h4{
+    padding: 10px;
+}
+p{
+    padding: 10px;
+}

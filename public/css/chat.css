@@ -1,0 +1,33 @@
+.chat{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 20vw;
+    background-color: white;
+    border: solid 1px black;
+    text-align: center;
+    box-shadow: -1px 0 3px;
+    padding-bottom: 15px;
+}
+
+.chat ul{
+    height: 17vh;
+}
+
+.chat ul li{
+    display: block;
+    text-align: left;
+    padding-left: 14px;
+}
+
+.chat p{
+    font-size: 1.6rem;
+    margin: 10px;
+    border-bottom: solid 1px;
+    padding-bottom: 10px;
+}
+.chat ul{
+    padding: 10px;
+    overflow: auto;
+    height: 17vh;
+}
